@@ -6,6 +6,7 @@ namespace Web;
 [Route("[controller]")]
 public class Ej1Controller : ControllerBase
 {
+    public int result;
     [HttpGet]
     public int Get(int num1, int num2, int num3)
     {
